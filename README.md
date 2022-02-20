@@ -4,8 +4,7 @@ Template for a ready-made QC development environment, incl. examples. The enviro
 
 ### How to use
 
-1. Fork template into a repository owned by GitHub Organization (for the time being, Codespacecs does not work with repositories owned by individuals)
-2. Add users to the Organization
-3. Users can then click on the repository's web page on "Code -> Codespaces -> New Codespace"
-4. A new Codespace setup takes typically less than 3 minutes (wait until pip installed all requirements)
-5. Users can then open one of the examples and run it
+1. GitHub Organization owner: Fork template into a repository owned by a GitHub Organization (for the time being, Codespacecs does not work with repositories owned by individuals)
+2. GitHub Organization owner: Add users to the Organization, allow Codespace access
+3. Users: Click on the repository's web page on "Code -> Codespaces -> New Codespace", a new Codespace setup takes typically less than 3 minutes (wait until pip installed all requirements)
+5. Users: Open one of the examples and run it
