@@ -19,7 +19,8 @@
 	"settings": { 
 		"python.defaultInterpreterPath": "/usr/local/bin/python",
 		"python.linting.enabled": true,
-		"python.linting.pylintEnabled": true,
+		"python.linting.pylintEnabled": false,
+		"python.linting.flake8Enabled": true,
 		"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
 		"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
 		"python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
@@ -35,7 +36,8 @@
 	"extensions": [
 		"ms-python.python",
 		"ms-python.vscode-pylance",
-		"GitHub.copilot"
+		"GitHub.copilot",
+		"formulahendry.code-runner"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
